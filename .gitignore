@@ -1,0 +1,16 @@
+# Logs, backups and generated reports
+*.log
+*.tar.gz
+reports/
+backups/
+
+# Secrets - never commit these
+*.key
+*.pem
+id_*
+*.pub
+.env
+
+# Editor temporary files
+*.swp
+*~

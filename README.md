@@ -39,8 +39,10 @@ A hands-on lab where I built and administered an Ubuntu Server inside a VirtualB
 
 Scheduled jobs (crontab):
 
+```
 */5 * * * * check-all.sh # service check every 5 minutes
 0 2 * * * backup.sh # daily backup at 02:00
+```
 
 
 ## Screenshots
